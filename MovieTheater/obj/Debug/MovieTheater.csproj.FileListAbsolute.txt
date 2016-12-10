@@ -1,0 +1,17 @@
+c:\users\korisnik\documents\visual studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\MovieTheater.exe.config
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\App_data\MovieTheatre.sdf
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\MovieTheater.exe
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\MovieTheater.pdb
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\EntityFramework.dll
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\EntityFramework.xml
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\obj\Debug\MovieTheater.csprojResolveAssemblyReference.cache
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\obj\Debug\MovieTheater.HomePage.resources
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\obj\Debug\MovieTheater.Properties.Resources.resources
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\obj\Debug\MovieTheater.csproj.GenerateResource.Cache
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\obj\Debug\MovieTheater.exe
+C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\obj\Debug\MovieTheater.pdb
