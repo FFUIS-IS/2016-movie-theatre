@@ -15,3 +15,10 @@ C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheate
 C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\obj\Debug\MovieTheater.csproj.GenerateResource.Cache
 C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\obj\Debug\MovieTheater.exe
 C:\Users\korisnik\Documents\Visual Studio 2015\Projects\MovieTheater\MovieTheater\obj\Debug\MovieTheater.pdb
+C:\Users\I\Documents\GitHub\GITHUB\2016-bioskop\MovieTheater\bin\Debug\MovieTheater.exe.config
+C:\Users\I\Documents\GitHub\GITHUB\2016-bioskop\MovieTheater\obj\Debug\MovieTheater.exe
+C:\Users\I\Documents\GitHub\GITHUB\2016-bioskop\MovieTheater\obj\Debug\MovieTheater.pdb
+C:\Users\I\Documents\GitHub\GITHUB\2016-bioskop\MovieTheater\obj\Debug\MovieTheater.csprojResolveAssemblyReference.cache
+C:\Users\I\Documents\GitHub\GITHUB\2016-bioskop\MovieTheater\obj\Debug\MovieTheater.HomePage.resources
+C:\Users\I\Documents\GitHub\GITHUB\2016-bioskop\MovieTheater\obj\Debug\MovieTheater.Properties.Resources.resources
+C:\Users\I\Documents\GitHub\GITHUB\2016-bioskop\MovieTheater\obj\Debug\MovieTheater.csproj.GenerateResource.Cache
