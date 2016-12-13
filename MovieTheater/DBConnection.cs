@@ -17,9 +17,6 @@ namespace MovieTheater
         private DBConnection()
         {
             string connectionString = @"Data Source=..\..\..\MovieTheatre.sdf;";
-            //LoginForm logf = new LoginForm();
-            //string Dir = logf.GetHomeDirectory();
-            //string connectionString = ConfigurationManager.ConnectionStrings["ConString"].ConnectionString + "Data Source = '" + @Dir + "\\MovieTheatre.sdf'";
             connection = new SqlCeConnection(connectionString);
             connection.Open();
         }
