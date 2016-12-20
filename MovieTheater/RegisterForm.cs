@@ -19,9 +19,7 @@ namespace MovieTheater
 
         private void registerButton_Click(object sender, EventArgs e)
         {
-            Employers employer = new Employers(userNameTextBox.Text, passwordTextBox.Text);
-
-            EmployersRepository.Register(employer);
+          
         }
     }
 }
