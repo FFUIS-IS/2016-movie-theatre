@@ -34,21 +34,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(255, 18);
+            this.label1.Location = new System.Drawing.Point(119, 72);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(159, 39);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome";
+            this.label1.Text = "Wellcome";
             // 
-            // HomePage
+            // HomePage1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(709, 330);
+            this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.label1);
-            this.Name = "HomePage";
-            this.Text = "Home";
+            this.Name = "HomePage1";
+            this.Text = "HomePage1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -59,4 +58,3 @@
         private System.Windows.Forms.Label label1;
     }
 }
-
