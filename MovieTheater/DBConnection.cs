@@ -14,13 +14,22 @@ namespace MovieTheater
 
         private SqlCeConnection connection;
 
+        private string connString;
+
         private DBConnection()
         {
             HomePage homepage = new HomePage();
             string Dir = homepage.GetHomeDirectory();
-            string connectionString = "Data Source ='" + @Dir + "\\MovieTheatre.sdf";
-            connection = new SqlCeConnection(connectionString);
+            //string Dir = homepage.;
+            connString = @"Data Source =" + Dir + "\\MovieTheatre.sdf";
+            //System.Diagnostics.Debug.WriteLine(connString);
+            connection = new SqlCeConnection(connString);
             connection.Open();
+        }
+
+        public string getConnString()
+        {
+            return connString;
         }
 
         public static DBConnection Instance

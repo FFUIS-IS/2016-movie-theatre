@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace MovieTheater
 {
-    public partial class RegisterForm : Form
+    public partial class HomePage2 : Form
     {
-        public RegisterForm()
+        public HomePage2()
         {
             InitializeComponent();
-        }
-
-        private void registerButton_Click(object sender, EventArgs e)
-        {
-          
         }
     }
 }
