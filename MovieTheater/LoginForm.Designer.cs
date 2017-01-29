@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.loginButton = new System.Windows.Forms.Button();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
             this.userNameTextBox = new System.Windows.Forms.TextBox();
@@ -35,6 +36,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.cancelLoginButton = new System.Windows.Forms.Button();
             this.loginTypeComboBox = new System.Windows.Forms.ComboBox();
+            this.jobsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.jobsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // loginButton
@@ -51,6 +54,7 @@
             // 
             this.passwordTextBox.Location = new System.Drawing.Point(185, 100);
             this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.PasswordChar = '*';
             this.passwordTextBox.Size = new System.Drawing.Size(100, 20);
             this.passwordTextBox.TabIndex = 1;
             // 
@@ -91,14 +95,21 @@
             // 
             // loginTypeComboBox
             // 
+            this.loginTypeComboBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedItem", this.jobsBindingSource, "jobName", true));
+            this.loginTypeComboBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.jobsBindingSource, "jobId", true));
+            this.loginTypeComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.jobsBindingSource, "jobName", true));
+            this.loginTypeComboBox.DataSource = this.jobsBindingSource;
+            this.loginTypeComboBox.DisplayMember = "jobName";
             this.loginTypeComboBox.FormattingEnabled = true;
-            this.loginTypeComboBox.Items.AddRange(new object[] {
-            "Worker",
-            "Manager"});
             this.loginTypeComboBox.Location = new System.Drawing.Point(127, 24);
             this.loginTypeComboBox.Name = "loginTypeComboBox";
             this.loginTypeComboBox.Size = new System.Drawing.Size(158, 21);
             this.loginTypeComboBox.TabIndex = 6;
+            this.loginTypeComboBox.ValueMember = "jobId";
+            // 
+            // jobsBindingSource
+            // 
+            this.jobsBindingSource.DataSource = typeof(MovieTheater.ViewModels.Jobs);
             // 
             // LoginForm
             // 
@@ -115,6 +126,7 @@
             this.Name = "LoginForm";
             this.Text = "LoginForm";
             this.Load += new System.EventHandler(this.LoginForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.jobsBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,5 +141,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button cancelLoginButton;
         private System.Windows.Forms.ComboBox loginTypeComboBox;
+        private System.Windows.Forms.BindingSource jobsBindingSource;
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MovieTheater.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -61,11 +62,21 @@ namespace MovieTheater
             if(loginTypeComboBox.Items.Count > 0) loginTypeComboBox.Items.Clear();
             //System.Diagnostics.Debug.WriteLine("Redova " + jobsReader.HasRows);
 
+            List<Jobs> jobs = new List<Jobs>();
             while (jobsReader.Read()) 
             {
                 System.Diagnostics.Debug.WriteLine(jobsReader["Name"] + " " + jobsReader["Description"]);
-                loginTypeComboBox.Items.Add(jobsReader["Name"]);
+                jobs.Add(new Jobs((int)jobsReader["Id"], jobsReader["Name"].ToString()));
+                
             }
+            
+         
+            loginTypeComboBox.DataSource = jobs;
+            loginTypeComboBox.DisplayMember = "Name";
+            loginTypeComboBox.ValueMember = "Id";
+
+
+
 
         }
     }
