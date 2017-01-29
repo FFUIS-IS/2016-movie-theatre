@@ -100,6 +100,12 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UposlenikPocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UposlenikPocetna.Designer.cs">
+      <DependentUpon>UposlenikPocetna.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\Jobs.cs" />
     <Compile Include="ViewModels\LoginResponse.cs" />
     <EmbeddedResource Include="HomePage.resx">
@@ -119,6 +125,9 @@
     </Compile>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UposlenikPocetna.resx">
+      <DependentUpon>UposlenikPocetna.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\MovieTheater.ViewModels.Jobs.datasource" />

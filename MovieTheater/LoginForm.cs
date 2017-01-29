@@ -30,9 +30,11 @@ namespace MovieTheater
 
         private void loginButton_Click(object sender, EventArgs e)
         {
+            int loginTypeId = (int)loginTypeComboBox.SelectedValue;
             string loginType = loginTypeComboBox.Text.Trim();
             string username = userNameTextBox.Text.Trim();
             string password = passwordTextBox.Text.Trim();
+            //System.Diagnostics.Debug.WriteLine("combo " + loginTypeId);
 
             if(loginType.Length == 0)
             {
@@ -50,7 +52,17 @@ namespace MovieTheater
                 return;
             }
 
-            DBLogin.CheckLogin(username, password, loginType);
+            LoginResponse response = DBLogin.CheckLogin(username, password, loginTypeId);
+            if (response.isValidLogin == false) MessageBox.Show("Korisnik ne postoji!");
+            else
+            {
+                if(response.loginTypeId == 7)
+                {
+                    UposlenikPocetna uposlenikPocetna = new UposlenikPocetna(response.username);
+                    uposlenikPocetna.Show();
+                    this.Close();
+                }
+            }
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
@@ -74,8 +86,6 @@ namespace MovieTheater
             loginTypeComboBox.DataSource = jobs;
             loginTypeComboBox.DisplayMember = "Name";
             loginTypeComboBox.ValueMember = "Id";
-
-
 
 
         }

@@ -9,7 +9,7 @@ namespace MovieTheater.ViewModels
     public class LoginResponse
     {
         public bool isValidLogin { get; set; }
-        public string loginType { get; set; }
+        public int loginTypeId { get; set; }
         public int userId { get; set; }
         public string username { get; set; }
 

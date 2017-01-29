@@ -58,3 +58,4 @@ C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\bin\Debug\EntityFram
 C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\bin\Debug\EntityFramework.SqlServerCompact.xml
 C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.exe
 C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.pdb
+C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.UposlenikPocetna.resources
