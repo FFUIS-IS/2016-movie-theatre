@@ -56,7 +56,7 @@ namespace MovieTheater
             if (response.isValidLogin == false) MessageBox.Show("Korisnik ne postoji!");
             else
             {
-                if(response.loginTypeId == 7)
+                if(response.loginTypeId == 1)
                 {
                     UposlenikPocetna uposlenikPocetna = new UposlenikPocetna(response.username);
                     uposlenikPocetna.Show();
@@ -84,8 +84,8 @@ namespace MovieTheater
             
          
             loginTypeComboBox.DataSource = jobs;
-            loginTypeComboBox.DisplayMember = "Name";
-            loginTypeComboBox.ValueMember = "Id";
+            loginTypeComboBox.DisplayMember = "jobName";
+            loginTypeComboBox.ValueMember = "jobId";
 
 
         }

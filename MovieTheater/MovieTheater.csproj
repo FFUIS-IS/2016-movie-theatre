@@ -108,6 +108,7 @@
     </Compile>
     <Compile Include="ViewModels\Jobs.cs" />
     <Compile Include="ViewModels\LoginResponse.cs" />
+    <Compile Include="ViewModels\Projections.cs" />
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
