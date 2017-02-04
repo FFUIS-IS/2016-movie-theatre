@@ -1,6 +1,6 @@
-﻿namespace MovieTheater
+﻿namespace MovieTheater.Forme
 {
-    partial class HomePage2
+    partial class Poslovi
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // HomePage2
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 311);
-            this.Name = "HomePage2";
-            this.Text = "HomePage2";
-            this.ResumeLayout(false);
-
+            this.Text = "Poslovi";
         }
 
         #endregion

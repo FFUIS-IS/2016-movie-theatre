@@ -78,42 +78,84 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBConnection.cs" />
-    <Compile Include="DBLogin.cs" />
-    <Compile Include="HomePage.cs">
+    <Compile Include="Database\DBConnection.cs" />
+    <Compile Include="Database\DBLogin.cs" />
+    <Compile Include="Forme\Distributeri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HomePage.Designer.cs">
+    <Compile Include="Forme\Distributeri.Designer.cs">
+      <DependentUpon>Distributeri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Filmovi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Filmovi.Designer.cs">
+      <DependentUpon>Filmovi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
-    <Compile Include="HomePage2.cs">
+    <Compile Include="Forme\Mjesta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HomePage2.Designer.cs">
-      <DependentUpon>HomePage2.cs</DependentUpon>
+    <Compile Include="Forme\Mjesta.Designer.cs">
+      <DependentUpon>Mjesta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Poslovi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Poslovi.Designer.cs">
+      <DependentUpon>Poslovi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Projekcije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Projekcije.Designer.cs">
+      <DependentUpon>Projekcije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Sale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Sale.Designer.cs">
+      <DependentUpon>Sale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\SefPocetna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\SefPocetna.Designer.cs">
+      <DependentUpon>SefPocetna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\Zanrovi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Zanrovi.Designer.cs">
+      <DependentUpon>Zanrovi.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="LoginForm.cs">
+    <Compile Include="Forme\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.cs">
+    <Compile Include="Forme\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UposlenikPocetna.cs">
+    <Compile Include="Forme\UposlenikPocetna.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UposlenikPocetna.Designer.cs">
+    <Compile Include="Forme\UposlenikPocetna.Designer.cs">
       <DependentUpon>UposlenikPocetna.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\Jobs.cs" />
     <Compile Include="ViewModels\LoginResponse.cs" />
     <Compile Include="ViewModels\Projections.cs" />
-    <EmbeddedResource Include="HomePage.resx">
+    <EmbeddedResource Include="Forme\HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomePage2.resx">
-      <DependentUpon>HomePage2.cs</DependentUpon>
+    <EmbeddedResource Include="Forme\SefPocetna.resx">
+      <DependentUpon>SefPocetna.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -124,10 +166,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="LoginForm.resx">
+    <EmbeddedResource Include="Forme\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UposlenikPocetna.resx">
+    <EmbeddedResource Include="Forme\UposlenikPocetna.resx">
       <DependentUpon>UposlenikPocetna.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -146,7 +188,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Database\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

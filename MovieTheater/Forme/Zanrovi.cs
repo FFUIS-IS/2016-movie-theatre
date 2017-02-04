@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MovieTheater
+namespace MovieTheater.Forme
 {
-    public partial class HomePage2 : Form
+    public partial class Zanrovi : Form
     {
-        public HomePage2()
+        public Zanrovi()
         {
             InitializeComponent();
         }

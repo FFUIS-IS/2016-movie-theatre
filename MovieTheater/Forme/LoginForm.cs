@@ -1,4 +1,5 @@
-﻿using MovieTheater.ViewModels;
+﻿using MovieTheater.Forme;
+using MovieTheater.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -60,6 +61,12 @@ namespace MovieTheater
                 {
                     UposlenikPocetna uposlenikPocetna = new UposlenikPocetna(response.username);
                     uposlenikPocetna.Show();
+                    this.Close();
+                }
+                else if(response.loginTypeId == 2) 
+                {
+                    SefPocetna sefPocetna = new SefPocetna(response.username);
+                    sefPocetna.Show();
                     this.Close();
                 }
             }

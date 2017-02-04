@@ -71,7 +71,6 @@ C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\bin\Debug\EntityFramework.x
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\bin\Debug\EntityFramework.SqlServer.xml
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\bin\Debug\EntityFramework.SqlServerCompact.xml
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.HomePage.resources
-C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.HomePage2.resources
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Properties.Resources.resources
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.LoginForm.resources
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.UposlenikPocetna.resources
@@ -79,3 +78,4 @@ C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.cspr
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.exe
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.pdb
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.csprojResolveAssemblyReference.cache
+C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.SefPocetna.resources
