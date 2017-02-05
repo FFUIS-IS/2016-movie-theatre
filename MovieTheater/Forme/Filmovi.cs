@@ -37,9 +37,7 @@ namespace MovieTheater.Forme
 
             while (Reader.Read())
             {
-                System.Diagnostics.Debug.WriteLine(Reader["Name"]);
                 list.Add(new Distributors((int)Reader["Id"], Reader["Name"].ToString(), Reader["Phone"].ToString(), Reader["Address"].ToString()));
-
             }
 
             comboBox1.DataSource = list;
@@ -65,7 +63,6 @@ namespace MovieTheater.Forme
             List<Film> list = new List<Film>();
             while (Reader.Read())
             {
-                System.Diagnostics.Debug.WriteLine(Reader["Name"]);
                 list.Add(new Film((int)Reader["Id"], Reader["Name"].ToString(), (int)Reader["Duration"],(bool) Reader["isShowing"], (int)Reader["DistibutorsId"], Reader["DistributorsName"].ToString()));
 
             }
@@ -114,6 +111,12 @@ namespace MovieTheater.Forme
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.sefPocetna.Show();
+            this.Close();
         }
     }
 }

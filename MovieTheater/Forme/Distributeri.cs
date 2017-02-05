@@ -42,7 +42,6 @@ namespace MovieTheater.Forme
 
             while (Reader.Read())
             {
-                System.Diagnostics.Debug.WriteLine(Reader["Name"]);
                 list.Add(new Distributors((int)Reader["Id"], Reader["Name"].ToString(), Reader["Phone"].ToString(), Reader["Address"].ToString()));
 
             }

@@ -155,7 +155,8 @@
       <DependentUpon>UposlenikPocetna.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\Distributors.cs" />
-    <Compile Include="ViewModels\Employer.cs" />
+    <Compile Include="ViewModels\Employers.cs" />
+    <Compile Include="ViewModels\EmployersJobs.cs" />
     <Compile Include="ViewModels\Film.cs" />
     <Compile Include="ViewModels\Jobs.cs" />
     <Compile Include="ViewModels\LoginResponse.cs" />
@@ -176,11 +177,23 @@
     <EmbeddedResource Include="Forme\Mjesta.resx">
       <DependentUpon>Mjesta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Poslovi.resx">
+      <DependentUpon>Poslovi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forme\Projekcije.resx">
       <DependentUpon>Projekcije.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Sale.resx">
+      <DependentUpon>Sale.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forme\SefPocetna.resx">
       <DependentUpon>SefPocetna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Uposlenici.resx">
+      <DependentUpon>Uposlenici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Zanrovi.resx">
+      <DependentUpon>Zanrovi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -40,7 +40,6 @@ namespace MovieTheater.Forme
 
             while (Reader.Read())
             {
-                System.Diagnostics.Debug.WriteLine(Reader["Name"]);
                 list.Add(new Film((int)Reader["Id"], Reader["Name"].ToString()));
 
             }
@@ -56,7 +55,6 @@ namespace MovieTheater.Forme
 
             while (Reader.Read())
             {
-                System.Diagnostics.Debug.WriteLine(Reader["Name"]);
                 list2.Add(new Rooms((int)Reader["Id"], Reader["Name"].ToString()));
 
             }
@@ -132,6 +130,12 @@ namespace MovieTheater.Forme
             }
 
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.sefPocetna.Show();
+            this.Close();
         }
     }
 }

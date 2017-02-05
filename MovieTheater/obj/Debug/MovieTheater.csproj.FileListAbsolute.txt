@@ -83,3 +83,7 @@ C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Form
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Filmovi.resources
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Mjesta.resources
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Projekcije.resources
+C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Poslovi.resources
+C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Sale.resources
+C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Uposlenici.resources
+C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Zanrovi.resources
