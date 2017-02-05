@@ -12,8 +12,16 @@ namespace MovieTheater.Forme
 {
     public partial class Mjesta : Form
     {
+        private SefPocetna sefPocetna;
+
         public Mjesta()
         {
+            InitializeComponent();
+        }
+
+        public Mjesta(SefPocetna sefPocetna)
+        {
+            this.sefPocetna = sefPocetna;
             InitializeComponent();
         }
     }

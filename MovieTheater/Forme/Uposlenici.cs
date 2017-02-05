@@ -10,10 +10,16 @@ using System.Windows.Forms;
 
 namespace MovieTheater.Forme
 {
-    public partial class Zanrovi : Form
+    public partial class Uposlenici : Form
     {
         private SefPocetna sefPocetna;
-        public Zanrovi(SefPocetna sefPocetna)
+
+        public Uposlenici()
+        {
+            InitializeComponent();
+        }
+
+        public Uposlenici(SefPocetna sefPocetna)
         {
             this.sefPocetna = sefPocetna;
             InitializeComponent();

@@ -128,6 +128,12 @@
     <Compile Include="Forme\SefPocetna.Designer.cs">
       <DependentUpon>SefPocetna.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forme\Uposlenici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Uposlenici.Designer.cs">
+      <DependentUpon>Uposlenici.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\Zanrovi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,11 +154,30 @@
     <Compile Include="Forme\UposlenikPocetna.Designer.cs">
       <DependentUpon>UposlenikPocetna.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\Distributors.cs" />
+    <Compile Include="ViewModels\Employer.cs" />
+    <Compile Include="ViewModels\Film.cs" />
     <Compile Include="ViewModels\Jobs.cs" />
     <Compile Include="ViewModels\LoginResponse.cs" />
     <Compile Include="ViewModels\Projections.cs" />
+    <Compile Include="ViewModels\Rooms.cs" />
+    <Compile Include="ViewModels\Seats.cs" />
+    <Compile Include="ViewModels\Tickets.cs" />
+    <Compile Include="ViewModels\Types.cs" />
+    <EmbeddedResource Include="Forme\Distributeri.resx">
+      <DependentUpon>Distributeri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Filmovi.resx">
+      <DependentUpon>Filmovi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forme\HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Mjesta.resx">
+      <DependentUpon>Mjesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Projekcije.resx">
+      <DependentUpon>Projekcije.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\SefPocetna.resx">
       <DependentUpon>SefPocetna.cs</DependentUpon>

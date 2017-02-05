@@ -37,6 +37,7 @@
             this.saleButton = new System.Windows.Forms.Button();
             this.mjestaButton = new System.Windows.Forms.Button();
             this.distributorsButton = new System.Windows.Forms.Button();
+            this.uposleniciButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // odjava_button
@@ -67,6 +68,7 @@
             this.filmoviButton.TabIndex = 4;
             this.filmoviButton.Text = "Filmovi";
             this.filmoviButton.UseVisualStyleBackColor = true;
+            this.filmoviButton.Click += new System.EventHandler(this.filmoviButton_Click);
             // 
             // tipoviFilmovaButton
             // 
@@ -76,6 +78,7 @@
             this.tipoviFilmovaButton.TabIndex = 5;
             this.tipoviFilmovaButton.Text = "Žanrovi";
             this.tipoviFilmovaButton.UseVisualStyleBackColor = true;
+            this.tipoviFilmovaButton.Click += new System.EventHandler(this.tipoviFilmovaButton_Click);
             // 
             // posloviButton
             // 
@@ -85,6 +88,7 @@
             this.posloviButton.TabIndex = 6;
             this.posloviButton.Text = "Poslovi";
             this.posloviButton.UseVisualStyleBackColor = true;
+            this.posloviButton.Click += new System.EventHandler(this.posloviButton_Click);
             // 
             // projekcijeButton
             // 
@@ -94,6 +98,7 @@
             this.projekcijeButton.TabIndex = 7;
             this.projekcijeButton.Text = "Projekcije";
             this.projekcijeButton.UseVisualStyleBackColor = true;
+            this.projekcijeButton.Click += new System.EventHandler(this.projekcijeButton_Click);
             // 
             // saleButton
             // 
@@ -103,6 +108,7 @@
             this.saleButton.TabIndex = 8;
             this.saleButton.Text = "Sale";
             this.saleButton.UseVisualStyleBackColor = true;
+            this.saleButton.Click += new System.EventHandler(this.saleButton_Click);
             // 
             // mjestaButton
             // 
@@ -112,6 +118,7 @@
             this.mjestaButton.TabIndex = 9;
             this.mjestaButton.Text = "Mjesta";
             this.mjestaButton.UseVisualStyleBackColor = true;
+            this.mjestaButton.Click += new System.EventHandler(this.mjestaButton_Click);
             // 
             // distributorsButton
             // 
@@ -121,12 +128,24 @@
             this.distributorsButton.TabIndex = 10;
             this.distributorsButton.Text = "Distributeri";
             this.distributorsButton.UseVisualStyleBackColor = true;
+            this.distributorsButton.Click += new System.EventHandler(this.distributorsButton_Click);
+            // 
+            // uposleniciButton
+            // 
+            this.uposleniciButton.Location = new System.Drawing.Point(180, 260);
+            this.uposleniciButton.Name = "uposleniciButton";
+            this.uposleniciButton.Size = new System.Drawing.Size(141, 62);
+            this.uposleniciButton.TabIndex = 11;
+            this.uposleniciButton.Text = "Uposlenici";
+            this.uposleniciButton.UseVisualStyleBackColor = true;
+            this.uposleniciButton.Click += new System.EventHandler(this.uposleniciButton_Click);
             // 
             // SefPocetna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(779, 446);
+            this.Controls.Add(this.uposleniciButton);
             this.Controls.Add(this.distributorsButton);
             this.Controls.Add(this.mjestaButton);
             this.Controls.Add(this.saleButton);
@@ -155,5 +174,6 @@
         private System.Windows.Forms.Button saleButton;
         private System.Windows.Forms.Button mjestaButton;
         private System.Windows.Forms.Button distributorsButton;
+        private System.Windows.Forms.Button uposleniciButton;
     }
 }

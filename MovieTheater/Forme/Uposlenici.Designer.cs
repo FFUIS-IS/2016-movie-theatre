@@ -1,6 +1,6 @@
 ﻿namespace MovieTheater.Forme
 {
-    partial class Mjesta
+    partial class Uposlenici
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // Mjesta
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(817, 513);
-            this.Name = "Mjesta";
-            this.Text = "Mjesta";
-            this.ResumeLayout(false);
-
+            this.Text = "Uposlenici";
         }
 
         #endregion

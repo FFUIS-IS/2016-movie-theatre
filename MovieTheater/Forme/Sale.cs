@@ -12,8 +12,16 @@ namespace MovieTheater.Forme
 {
     public partial class Sale : Form
     {
+        private SefPocetna sefPocetna;
+
         public Sale()
         {
+            InitializeComponent();
+        }
+
+        public Sale(SefPocetna sefPocetna)
+        {
+            this.sefPocetna = sefPocetna;
             InitializeComponent();
         }
     }
