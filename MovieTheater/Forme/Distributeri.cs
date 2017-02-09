@@ -86,5 +86,26 @@ namespace MovieTheater.Forme
             this.Close();
 
         }
+
+        private void obrisiButton_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count != 1)
+            {
+                MessageBox.Show("Odaberite jedan slog!");
+                return;
+            }
+            DataGridViewRow row = dataGridView1.SelectedRows[0];
+            int value = (int) row.Cells[0].Value;
+
+            SqlCeConnection Connection = DBConnection.Instance.Connection;
+            SqlCeCommand Command = new SqlCeCommand(@"DELETE FROM Distributors WHERE Id = @Id", Connection);
+
+            Command.Parameters.AddWithValue("@Id", value);
+
+            Command.ExecuteNonQuery();
+
+            ucitajDistributereUgridView();
+
+        }
     }
 }

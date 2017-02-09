@@ -42,7 +42,7 @@
             // 
             // odjava_button
             // 
-            this.odjava_button.Location = new System.Drawing.Point(564, 317);
+            this.odjava_button.Location = new System.Drawing.Point(869, 664);
             this.odjava_button.Margin = new System.Windows.Forms.Padding(6);
             this.odjava_button.Name = "odjava_button";
             this.odjava_button.Size = new System.Drawing.Size(178, 76);
@@ -54,7 +54,7 @@
             // usernameLabel
             // 
             this.usernameLabel.AutoSize = true;
-            this.usernameLabel.Location = new System.Drawing.Point(564, 23);
+            this.usernameLabel.Location = new System.Drawing.Point(960, 24);
             this.usernameLabel.Name = "usernameLabel";
             this.usernameLabel.Size = new System.Drawing.Size(64, 25);
             this.usernameLabel.TabIndex = 3;
@@ -64,7 +64,7 @@
             // 
             this.filmoviButton.Location = new System.Drawing.Point(24, 46);
             this.filmoviButton.Name = "filmoviButton";
-            this.filmoviButton.Size = new System.Drawing.Size(141, 72);
+            this.filmoviButton.Size = new System.Drawing.Size(235, 128);
             this.filmoviButton.TabIndex = 4;
             this.filmoviButton.Text = "Filmovi";
             this.filmoviButton.UseVisualStyleBackColor = true;
@@ -72,9 +72,9 @@
             // 
             // tipoviFilmovaButton
             // 
-            this.tipoviFilmovaButton.Location = new System.Drawing.Point(24, 123);
+            this.tipoviFilmovaButton.Location = new System.Drawing.Point(24, 202);
             this.tipoviFilmovaButton.Name = "tipoviFilmovaButton";
-            this.tipoviFilmovaButton.Size = new System.Drawing.Size(141, 64);
+            this.tipoviFilmovaButton.Size = new System.Drawing.Size(235, 137);
             this.tipoviFilmovaButton.TabIndex = 5;
             this.tipoviFilmovaButton.Text = "Žanrovi";
             this.tipoviFilmovaButton.UseVisualStyleBackColor = true;
@@ -82,9 +82,9 @@
             // 
             // posloviButton
             // 
-            this.posloviButton.Location = new System.Drawing.Point(180, 122);
+            this.posloviButton.Location = new System.Drawing.Point(290, 202);
             this.posloviButton.Name = "posloviButton";
-            this.posloviButton.Size = new System.Drawing.Size(141, 65);
+            this.posloviButton.Size = new System.Drawing.Size(256, 137);
             this.posloviButton.TabIndex = 6;
             this.posloviButton.Text = "Poslovi";
             this.posloviButton.UseVisualStyleBackColor = true;
@@ -92,9 +92,9 @@
             // 
             // projekcijeButton
             // 
-            this.projekcijeButton.Location = new System.Drawing.Point(180, 46);
+            this.projekcijeButton.Location = new System.Drawing.Point(290, 46);
             this.projekcijeButton.Name = "projekcijeButton";
-            this.projekcijeButton.Size = new System.Drawing.Size(141, 72);
+            this.projekcijeButton.Size = new System.Drawing.Size(256, 128);
             this.projekcijeButton.TabIndex = 7;
             this.projekcijeButton.Text = "Projekcije";
             this.projekcijeButton.UseVisualStyleBackColor = true;
@@ -102,9 +102,9 @@
             // 
             // saleButton
             // 
-            this.saleButton.Location = new System.Drawing.Point(24, 193);
+            this.saleButton.Location = new System.Drawing.Point(24, 360);
             this.saleButton.Name = "saleButton";
-            this.saleButton.Size = new System.Drawing.Size(141, 60);
+            this.saleButton.Size = new System.Drawing.Size(235, 131);
             this.saleButton.TabIndex = 8;
             this.saleButton.Text = "Sale";
             this.saleButton.UseVisualStyleBackColor = true;
@@ -112,9 +112,9 @@
             // 
             // mjestaButton
             // 
-            this.mjestaButton.Location = new System.Drawing.Point(180, 193);
+            this.mjestaButton.Location = new System.Drawing.Point(290, 360);
             this.mjestaButton.Name = "mjestaButton";
-            this.mjestaButton.Size = new System.Drawing.Size(141, 60);
+            this.mjestaButton.Size = new System.Drawing.Size(256, 131);
             this.mjestaButton.TabIndex = 9;
             this.mjestaButton.Text = "Mjesta";
             this.mjestaButton.UseVisualStyleBackColor = true;
@@ -122,9 +122,9 @@
             // 
             // distributorsButton
             // 
-            this.distributorsButton.Location = new System.Drawing.Point(24, 260);
+            this.distributorsButton.Location = new System.Drawing.Point(24, 520);
             this.distributorsButton.Name = "distributorsButton";
-            this.distributorsButton.Size = new System.Drawing.Size(141, 62);
+            this.distributorsButton.Size = new System.Drawing.Size(235, 130);
             this.distributorsButton.TabIndex = 10;
             this.distributorsButton.Text = "Distributeri";
             this.distributorsButton.UseVisualStyleBackColor = true;
@@ -132,9 +132,9 @@
             // 
             // uposleniciButton
             // 
-            this.uposleniciButton.Location = new System.Drawing.Point(180, 260);
+            this.uposleniciButton.Location = new System.Drawing.Point(290, 520);
             this.uposleniciButton.Name = "uposleniciButton";
-            this.uposleniciButton.Size = new System.Drawing.Size(141, 62);
+            this.uposleniciButton.Size = new System.Drawing.Size(256, 130);
             this.uposleniciButton.TabIndex = 11;
             this.uposleniciButton.Text = "Uposlenici";
             this.uposleniciButton.UseVisualStyleBackColor = true;
@@ -144,7 +144,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(779, 446);
+            this.ClientSize = new System.Drawing.Size(1086, 785);
             this.Controls.Add(this.uposleniciButton);
             this.Controls.Add(this.distributorsButton);
             this.Controls.Add(this.mjestaButton);
