@@ -1,4 +1,5 @@
-﻿using MovieTheater.ViewModels;
+﻿using MovieTheater.Forme;
+using MovieTheater.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,12 +16,13 @@ namespace MovieTheater
     public partial class UposlenikPocetna : Form
     {
         private string username;
-        public UposlenikPocetna(string username)
+        private int employeeId;
+        public UposlenikPocetna(string username, int employeeId)
         {
             this.username = username;
             InitializeComponent();
             this.uposlenikUsername_label.Text = username;
-
+            this.employeeId = employeeId;
         }
 
         private void odjava_button_Click(object sender, EventArgs e)
@@ -50,6 +52,12 @@ namespace MovieTheater
             var source = new BindingSource(bindingList, null);
             projekcijeDataGridView.DataSource = source;
 
+        }
+
+        private void prodajaButton_Click(object sender, EventArgs e)
+        {
+            Prodaja prodaja = new Prodaja(employeeId);
+            prodaja.Show();
         }
     }
 }

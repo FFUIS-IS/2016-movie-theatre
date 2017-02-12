@@ -26,5 +26,13 @@ namespace MovieTheater.ViewModels
             this.Price = v5;
         }
 
+        public string ProjectionName
+        {
+            get
+            {
+                return Film + " - " + Room + "-" + Time_of_projection;
+            }
+        }
+
     }
 }

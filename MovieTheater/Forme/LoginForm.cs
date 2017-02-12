@@ -59,7 +59,7 @@ namespace MovieTheater
             {
                 if(response.loginTypeId == 1)
                 {
-                    UposlenikPocetna uposlenikPocetna = new UposlenikPocetna(response.username);
+                    UposlenikPocetna uposlenikPocetna = new UposlenikPocetna(response.username, response.userId);
                     uposlenikPocetna.Show();
                     this.Close();
                 }

@@ -49,7 +49,7 @@
             // odjava_button
             // 
             this.odjava_button.Location = new System.Drawing.Point(919, 493);
-            this.odjava_button.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.odjava_button.Margin = new System.Windows.Forms.Padding(6);
             this.odjava_button.Name = "odjava_button";
             this.odjava_button.Size = new System.Drawing.Size(178, 76);
             this.odjava_button.TabIndex = 1;
@@ -74,6 +74,7 @@
             this.prodajaButton.TabIndex = 3;
             this.prodajaButton.Text = "Prodaja";
             this.prodajaButton.UseVisualStyleBackColor = true;
+            this.prodajaButton.Click += new System.EventHandler(this.prodajaButton_Click);
             // 
             // UposlenikPocetna
             // 
@@ -84,7 +85,7 @@
             this.Controls.Add(this.projekcijeDataGridView);
             this.Controls.Add(this.odjava_button);
             this.Controls.Add(this.uposlenikUsername_label);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "UposlenikPocetna";
             this.Text = "UposlenikPocetna";
             this.Load += new System.EventHandler(this.UposlenikPocetna_Load);

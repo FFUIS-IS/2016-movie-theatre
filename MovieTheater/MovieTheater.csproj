@@ -110,6 +110,12 @@
     <Compile Include="Forme\Poslovi.Designer.cs">
       <DependentUpon>Poslovi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forme\Prodaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Prodaja.Designer.cs">
+      <DependentUpon>Prodaja.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\Projekcije.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\Poslovi.resx">
       <DependentUpon>Poslovi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Prodaja.resx">
+      <DependentUpon>Prodaja.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\Projekcije.resx">
       <DependentUpon>Projekcije.cs</DependentUpon>
