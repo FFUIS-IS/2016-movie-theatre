@@ -24,13 +24,14 @@ namespace MovieTheater.Forme
         private void Prodaja_Load(object sender, EventArgs e)
         {
             ucitajPodatkeUcombobox();
+            //int projectionId = (int)comboBox1.SelectedValue;
+            //ucitajMjestaUcombobox(projectionId);
             comboBox1.SelectedValueChanged += new EventHandler(combobox1_selectionChanged);
         }
 
         private void combobox1_selectionChanged(object sender, EventArgs e)
         {
             int projectionId = (int)comboBox1.SelectedValue;
-            System.Diagnostics.Debug.WriteLine("Projekcija " + projectionId);
             ucitajMjestaUcombobox(projectionId);
         }
 
@@ -64,7 +65,7 @@ namespace MovieTheater.Forme
         private void ucitajMjestaUcombobox(int projectionId)
         {
             SqlCeConnection Connection = DBConnection.Instance.Connection;
-            SqlCeCommand Command = new SqlCeCommand(@"select * from seats where Id not in (select SeatsId from Tickets where ProjectionsId = @projectionId)", Connection);
+            SqlCeCommand Command = new SqlCeCommand(@"select * from seats, rooms, projections where seats.RoomsId = rooms.Id AND projections.RoomsId = rooms.Id AND projections.Id = @projectionId AND seats.Id not in (select SeatsId from Tickets where ProjectionsId = @projectionId)", Connection);
             Command.Parameters.AddWithValue("@projectionId", projectionId);
 
             SqlCeDataReader Reader = null;

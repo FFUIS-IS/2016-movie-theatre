@@ -109,8 +109,8 @@ namespace MovieTheater.Forme
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int row = Int16.Parse( textBox3.Text);
-            int number = Int16.Parse(textBox4.Text);
+            int row = Int16.Parse( textBox4.Text);
+            int number = Int16.Parse(textBox3.Text);
             DataGridViewRow dataGridRow = this.dataGridView1.SelectedRows[0];
             int roomId = (int)dataGridRow.Cells["Id"].Value;
 

@@ -25,6 +25,8 @@ namespace MovieTheater
                 return response;
             }
             System.Diagnostics.Debug.WriteLine(jobsReader["firstName"] + " " + jobsReader["lastName"]);
+            int userId = (int)jobsReader["Id"];
+
             response.isValidLogin = true;
             response.username = jobsReader["userName"].ToString();
             response.userId = (int)jobsReader["Id"];
@@ -32,7 +34,7 @@ namespace MovieTheater
 
             String queryJob = @"SELECT TOP 1 * FROM Employers_Jobs WHERE  Employers_Id = " + response.userId + " AND jobs_id = " + loginTypeId;
             SqlCeCommand jobCommand2 = new SqlCeCommand(queryJob, Connection);
-            SqlCeDataReader jobsReader2 = jobCommand.ExecuteReader();
+            SqlCeDataReader jobsReader2 = jobCommand2.ExecuteReader();
 
             if(jobsReader2.Read() == false)
             {
