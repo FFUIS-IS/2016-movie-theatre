@@ -35,7 +35,6 @@
             this.posloviButton = new System.Windows.Forms.Button();
             this.projekcijeButton = new System.Windows.Forms.Button();
             this.saleButton = new System.Windows.Forms.Button();
-            this.mjestaButton = new System.Windows.Forms.Button();
             this.distributorsButton = new System.Windows.Forms.Button();
             this.uposleniciButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -110,16 +109,6 @@
             this.saleButton.UseVisualStyleBackColor = true;
             this.saleButton.Click += new System.EventHandler(this.saleButton_Click);
             // 
-            // mjestaButton
-            // 
-            this.mjestaButton.Location = new System.Drawing.Point(290, 360);
-            this.mjestaButton.Name = "mjestaButton";
-            this.mjestaButton.Size = new System.Drawing.Size(256, 131);
-            this.mjestaButton.TabIndex = 9;
-            this.mjestaButton.Text = "Mjesta";
-            this.mjestaButton.UseVisualStyleBackColor = true;
-            this.mjestaButton.Click += new System.EventHandler(this.mjestaButton_Click);
-            // 
             // distributorsButton
             // 
             this.distributorsButton.Location = new System.Drawing.Point(24, 520);
@@ -132,7 +121,7 @@
             // 
             // uposleniciButton
             // 
-            this.uposleniciButton.Location = new System.Drawing.Point(290, 520);
+            this.uposleniciButton.Location = new System.Drawing.Point(290, 364);
             this.uposleniciButton.Name = "uposleniciButton";
             this.uposleniciButton.Size = new System.Drawing.Size(256, 130);
             this.uposleniciButton.TabIndex = 11;
@@ -147,7 +136,6 @@
             this.ClientSize = new System.Drawing.Size(1086, 785);
             this.Controls.Add(this.uposleniciButton);
             this.Controls.Add(this.distributorsButton);
-            this.Controls.Add(this.mjestaButton);
             this.Controls.Add(this.saleButton);
             this.Controls.Add(this.projekcijeButton);
             this.Controls.Add(this.posloviButton);
@@ -156,6 +144,7 @@
             this.Controls.Add(this.usernameLabel);
             this.Controls.Add(this.odjava_button);
             this.Name = "SefPocetna";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Šef";
             this.Load += new System.EventHandler(this.SefPocetna_Load);
             this.ResumeLayout(false);
@@ -172,7 +161,6 @@
         private System.Windows.Forms.Button posloviButton;
         private System.Windows.Forms.Button projekcijeButton;
         private System.Windows.Forms.Button saleButton;
-        private System.Windows.Forms.Button mjestaButton;
         private System.Windows.Forms.Button distributorsButton;
         private System.Windows.Forms.Button uposleniciButton;
     }

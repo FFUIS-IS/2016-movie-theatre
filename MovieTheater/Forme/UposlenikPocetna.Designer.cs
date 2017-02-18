@@ -39,7 +39,7 @@
             // 
             this.uposlenikUsername_label.AutoSize = true;
             this.uposlenikUsername_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.uposlenikUsername_label.Location = new System.Drawing.Point(851, 17);
+            this.uposlenikUsername_label.Location = new System.Drawing.Point(1307, 26);
             this.uposlenikUsername_label.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.uposlenikUsername_label.Name = "uposlenikUsername_label";
             this.uposlenikUsername_label.Size = new System.Drawing.Size(229, 54);
@@ -48,7 +48,7 @@
             // 
             // odjava_button
             // 
-            this.odjava_button.Location = new System.Drawing.Point(919, 493);
+            this.odjava_button.Location = new System.Drawing.Point(1358, 711);
             this.odjava_button.Margin = new System.Windows.Forms.Padding(6);
             this.odjava_button.Name = "odjava_button";
             this.odjava_button.Size = new System.Drawing.Size(178, 76);
@@ -63,12 +63,12 @@
             this.projekcijeDataGridView.Location = new System.Drawing.Point(26, 26);
             this.projekcijeDataGridView.Name = "projekcijeDataGridView";
             this.projekcijeDataGridView.RowTemplate.Height = 31;
-            this.projekcijeDataGridView.Size = new System.Drawing.Size(793, 347);
+            this.projekcijeDataGridView.Size = new System.Drawing.Size(1263, 617);
             this.projekcijeDataGridView.TabIndex = 2;
             // 
             // prodajaButton
             // 
-            this.prodajaButton.Location = new System.Drawing.Point(26, 411);
+            this.prodajaButton.Location = new System.Drawing.Point(26, 675);
             this.prodajaButton.Name = "prodajaButton";
             this.prodajaButton.Size = new System.Drawing.Size(178, 63);
             this.prodajaButton.TabIndex = 3;
@@ -80,13 +80,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1137, 615);
+            this.ClientSize = new System.Drawing.Size(1563, 802);
             this.Controls.Add(this.prodajaButton);
             this.Controls.Add(this.projekcijeDataGridView);
             this.Controls.Add(this.odjava_button);
             this.Controls.Add(this.uposlenikUsername_label);
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "UposlenikPocetna";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UposlenikPocetna";
             this.Load += new System.EventHandler(this.UposlenikPocetna_Load);
             ((System.ComponentModel.ISupportInitialize)(this.projekcijeDataGridView)).EndInit();

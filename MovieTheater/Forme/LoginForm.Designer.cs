@@ -43,7 +43,7 @@
             // loginButton
             // 
             this.loginButton.Location = new System.Drawing.Point(233, 268);
-            this.loginButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.loginButton.Margin = new System.Windows.Forms.Padding(6);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(138, 42);
             this.loginButton.TabIndex = 0;
@@ -54,7 +54,7 @@
             // passwordTextBox
             // 
             this.passwordTextBox.Location = new System.Drawing.Point(339, 185);
-            this.passwordTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.passwordTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.passwordTextBox.Name = "passwordTextBox";
             this.passwordTextBox.PasswordChar = '*';
             this.passwordTextBox.Size = new System.Drawing.Size(180, 29);
@@ -63,7 +63,7 @@
             // userNameTextBox
             // 
             this.userNameTextBox.Location = new System.Drawing.Point(339, 120);
-            this.userNameTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.userNameTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.userNameTextBox.Name = "userNameTextBox";
             this.userNameTextBox.Size = new System.Drawing.Size(180, 29);
             this.userNameTextBox.TabIndex = 2;
@@ -91,7 +91,7 @@
             // cancelLoginButton
             // 
             this.cancelLoginButton.Location = new System.Drawing.Point(385, 268);
-            this.cancelLoginButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.cancelLoginButton.Margin = new System.Windows.Forms.Padding(6);
             this.cancelLoginButton.Name = "cancelLoginButton";
             this.cancelLoginButton.Size = new System.Drawing.Size(138, 42);
             this.cancelLoginButton.TabIndex = 5;
@@ -106,7 +106,7 @@
             this.loginTypeComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.jobsBindingSource, "jobName", true));
             this.loginTypeComboBox.FormattingEnabled = true;
             this.loginTypeComboBox.Location = new System.Drawing.Point(233, 44);
-            this.loginTypeComboBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.loginTypeComboBox.Margin = new System.Windows.Forms.Padding(6);
             this.loginTypeComboBox.Name = "loginTypeComboBox";
             this.loginTypeComboBox.Size = new System.Drawing.Size(286, 32);
             this.loginTypeComboBox.TabIndex = 6;
@@ -127,8 +127,9 @@
             this.Controls.Add(this.userNameTextBox);
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.loginButton);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";
             this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.jobsBindingSource)).EndInit();
