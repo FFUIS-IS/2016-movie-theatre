@@ -98,14 +98,15 @@ namespace MovieTheater.Forme
         {
             int projectionId = (int)comboBox1.SelectedValue;
             int seatsId = (int)comboBox2.SelectedValue;
-
+            DateTime datumIvrijeme = DateTime.Now;
             SqlCeConnection Connection = DBConnection.Instance.Connection;
-            SqlCeCommand Command = new SqlCeCommand(@"INSERT INTO Tickets(SeatsId, ProjectionsId, EmployersId) VALUES(@seatsId, @projectionsId, @employersId)", Connection);
+            SqlCeCommand Command = new SqlCeCommand(@"INSERT INTO Tickets(SeatsId, ProjectionsId, EmployersId, dateOfSale) VALUES(@seatsId, @projectionsId, @employersId, @dateOfSale)", Connection);
 
             Command.Parameters.AddWithValue("@seatsId", seatsId);
             Command.Parameters.AddWithValue("@projectionsId", projectionId);
             Command.Parameters.AddWithValue("@employersId", employeeId);
-            
+            Command.Parameters.AddWithValue("@dateOfSale", datumIvrijeme);
+
             Command.ExecuteNonQuery();
 
             ucitajMjestaUcombobox(projectionId);

@@ -25,6 +25,7 @@ namespace MovieTheater.Forme
         {
             ucitajFilmoveUgridView();
             ucitajDistributereUcombobox();
+            ucitajZanroveUcombobox();
         }
 
         private void ucitajDistributereUcombobox()
@@ -44,10 +45,29 @@ namespace MovieTheater.Forme
             comboBox1.DisplayMember = "Name";
             comboBox1.ValueMember = "Id";
         }
+
+        private void ucitajZanroveUcombobox()
+        {
+            SqlCeConnection Connection = DBConnection.Instance.Connection;
+            SqlCeCommand Command = new SqlCeCommand(@"SELECT * FROM Types", Connection);
+            SqlCeDataReader Reader = Command.ExecuteReader();
+
+            List<Types> list = new List<Types>();
+
+            while (Reader.Read())
+            {
+                list.Add(new Types((int)Reader["Id"], Reader["Name"].ToString(), Reader["Description"].ToString()));
+            }
+
+            comboBox2.DataSource = list;
+            comboBox2.DisplayMember = "Name";
+            comboBox2.ValueMember = "Id";
+        }
+
         private void ucitajFilmoveUgridView()
         {
             SqlCeConnection Connection = DBConnection.Instance.Connection;
-            SqlCeCommand Command = new SqlCeCommand(@"SELECT f.*, d.Name DistributorsName FROM Films f, Distributors d WHERE f.DistibutorsId = d.Id", Connection);
+            SqlCeCommand Command = new SqlCeCommand(@"SELECT f.Id, f.Name, f.Duration, f.isShowing, d.Name DistributorsName, t.Name TypesName FROM Films f, Distributors d, Types t WHERE f.DistibutorsId = d.Id and f.TypesId = t.Id", Connection);
             SqlCeDataReader Reader = null;
             try
             {
@@ -63,7 +83,7 @@ namespace MovieTheater.Forme
             List<Film> list = new List<Film>();
             while (Reader.Read())
             {
-                list.Add(new Film((int)Reader["Id"], Reader["Name"].ToString(), (int)Reader["Duration"],(bool) Reader["isShowing"], (int)Reader["DistibutorsId"], Reader["DistributorsName"].ToString()));
+                list.Add(new Film((int)Reader["Id"], Reader["Name"].ToString(), (int)Reader["Duration"],(bool) Reader["isShowing"], Reader["DistributorsName"].ToString(), Reader["TypesName"].ToString()));
 
             }
 
@@ -79,18 +99,20 @@ namespace MovieTheater.Forme
             int duration = Int32.Parse(textBox2.Text);
             bool isShowing = checkBox1.Checked;
             int distributorsId = (int)comboBox1.SelectedValue;
+            int typesId = (int)comboBox2.SelectedValue;
 
             if (name == "" || duration == 0) MessageBox.Show("Morate unijeti podatke o distributeru!");
 
             else
             {
                 SqlCeConnection Connection = DBConnection.Instance.Connection;
-                SqlCeCommand Command = new SqlCeCommand(@"INSERT INTO Films(Name, Duration, isShowing,DistibutorsId) VALUES(@name, @duration, @isShowing, @distributorsId)", Connection);
+                SqlCeCommand Command = new SqlCeCommand(@"INSERT INTO Films(Name, Duration, isShowing, DistibutorsId, TypesId) VALUES(@name, @duration, @isShowing, @distributorsId, @typesId)", Connection);
 
                 Command.Parameters.AddWithValue("@name", name);
                 Command.Parameters.AddWithValue("@duration", duration);
                 Command.Parameters.AddWithValue("@isShowing", isShowing);
                 Command.Parameters.AddWithValue("@distributorsId", distributorsId);
+                Command.Parameters.AddWithValue("@typesId", typesId);
 
                 Command.ExecuteNonQuery();
 
@@ -101,16 +123,6 @@ namespace MovieTheater.Forme
                 ucitajFilmoveUgridView();
 
             }
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void button2_Click(object sender, EventArgs e)

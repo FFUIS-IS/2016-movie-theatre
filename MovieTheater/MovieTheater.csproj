@@ -98,6 +98,12 @@
     <Compile Include="Forme\HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forme\ListaProdaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\ListaProdaje.Designer.cs">
+      <DependentUpon>ListaProdaje.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\Mjesta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +176,7 @@
     <Compile Include="ViewModels\Rooms.cs" />
     <Compile Include="ViewModels\Seats.cs" />
     <Compile Include="ViewModels\Tickets.cs" />
+    <Compile Include="ViewModels\Tickets2.cs" />
     <Compile Include="ViewModels\Types.cs" />
     <EmbeddedResource Include="Forme\Distributeri.resx">
       <DependentUpon>Distributeri.cs</DependentUpon>
@@ -179,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\ListaProdaje.resx">
+      <DependentUpon>ListaProdaje.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\Mjesta.resx">
       <DependentUpon>Mjesta.cs</DependentUpon>

@@ -95,5 +95,12 @@ namespace MovieTheater.Forme
             uposlenici.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ListaProdaje listaProdaje = new ListaProdaje(this);
+            listaProdaje.Show();
+            this.Hide();
+        }
     }
 }
