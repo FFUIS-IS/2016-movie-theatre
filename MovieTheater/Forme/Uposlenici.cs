@@ -142,6 +142,11 @@ namespace MovieTheater.Forme
                 Command.ExecuteNonQuery();
                 textBox1.Text = "";
                 textBox2.Text = "";
+                textBox3.Text = "";
+                textBox4.Text = "";
+                textBox5.Text = "";
+                textBox6.Text = "";
+                dateTimePicker1.Value = DateTime.Now;
 
                 ucitajUposlenikeUgridView();
                 ucitajPodatkeUcombobox();
