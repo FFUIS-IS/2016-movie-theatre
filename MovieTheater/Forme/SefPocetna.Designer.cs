@@ -42,10 +42,9 @@
             // 
             // odjava_button
             // 
-            this.odjava_button.Location = new System.Drawing.Point(869, 664);
-            this.odjava_button.Margin = new System.Windows.Forms.Padding(6);
+            this.odjava_button.Location = new System.Drawing.Point(474, 360);
             this.odjava_button.Name = "odjava_button";
-            this.odjava_button.Size = new System.Drawing.Size(178, 76);
+            this.odjava_button.Size = new System.Drawing.Size(97, 41);
             this.odjava_button.TabIndex = 2;
             this.odjava_button.Text = "Odjava";
             this.odjava_button.UseVisualStyleBackColor = true;
@@ -54,17 +53,19 @@
             // usernameLabel
             // 
             this.usernameLabel.AutoSize = true;
-            this.usernameLabel.Location = new System.Drawing.Point(960, 24);
+            this.usernameLabel.Location = new System.Drawing.Point(520, 25);
+            this.usernameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.usernameLabel.Name = "usernameLabel";
-            this.usernameLabel.Size = new System.Drawing.Size(64, 25);
+            this.usernameLabel.Size = new System.Drawing.Size(35, 13);
             this.usernameLabel.TabIndex = 3;
             this.usernameLabel.Text = "label1";
             // 
             // filmoviButton
             // 
-            this.filmoviButton.Location = new System.Drawing.Point(24, 46);
+            this.filmoviButton.Location = new System.Drawing.Point(132, 25);
+            this.filmoviButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.filmoviButton.Name = "filmoviButton";
-            this.filmoviButton.Size = new System.Drawing.Size(235, 128);
+            this.filmoviButton.Size = new System.Drawing.Size(128, 69);
             this.filmoviButton.TabIndex = 4;
             this.filmoviButton.Text = "Filmovi";
             this.filmoviButton.UseVisualStyleBackColor = true;
@@ -72,9 +73,10 @@
             // 
             // tipoviFilmovaButton
             // 
-            this.tipoviFilmovaButton.Location = new System.Drawing.Point(24, 202);
+            this.tipoviFilmovaButton.Location = new System.Drawing.Point(132, 109);
+            this.tipoviFilmovaButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tipoviFilmovaButton.Name = "tipoviFilmovaButton";
-            this.tipoviFilmovaButton.Size = new System.Drawing.Size(235, 137);
+            this.tipoviFilmovaButton.Size = new System.Drawing.Size(128, 74);
             this.tipoviFilmovaButton.TabIndex = 5;
             this.tipoviFilmovaButton.Text = "Žanrovi";
             this.tipoviFilmovaButton.UseVisualStyleBackColor = true;
@@ -82,9 +84,10 @@
             // 
             // posloviButton
             // 
-            this.posloviButton.Location = new System.Drawing.Point(290, 202);
+            this.posloviButton.Location = new System.Drawing.Point(295, 109);
+            this.posloviButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.posloviButton.Name = "posloviButton";
-            this.posloviButton.Size = new System.Drawing.Size(256, 137);
+            this.posloviButton.Size = new System.Drawing.Size(140, 74);
             this.posloviButton.TabIndex = 6;
             this.posloviButton.Text = "Poslovi";
             this.posloviButton.UseVisualStyleBackColor = true;
@@ -92,9 +95,10 @@
             // 
             // projekcijeButton
             // 
-            this.projekcijeButton.Location = new System.Drawing.Point(290, 46);
+            this.projekcijeButton.Location = new System.Drawing.Point(295, 25);
+            this.projekcijeButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.projekcijeButton.Name = "projekcijeButton";
-            this.projekcijeButton.Size = new System.Drawing.Size(256, 128);
+            this.projekcijeButton.Size = new System.Drawing.Size(140, 69);
             this.projekcijeButton.TabIndex = 7;
             this.projekcijeButton.Text = "Projekcije";
             this.projekcijeButton.UseVisualStyleBackColor = true;
@@ -102,9 +106,10 @@
             // 
             // saleButton
             // 
-            this.saleButton.Location = new System.Drawing.Point(24, 360);
+            this.saleButton.Location = new System.Drawing.Point(132, 195);
+            this.saleButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.saleButton.Name = "saleButton";
-            this.saleButton.Size = new System.Drawing.Size(235, 131);
+            this.saleButton.Size = new System.Drawing.Size(128, 71);
             this.saleButton.TabIndex = 8;
             this.saleButton.Text = "Sale";
             this.saleButton.UseVisualStyleBackColor = true;
@@ -112,9 +117,10 @@
             // 
             // distributorsButton
             // 
-            this.distributorsButton.Location = new System.Drawing.Point(24, 520);
+            this.distributorsButton.Location = new System.Drawing.Point(132, 282);
+            this.distributorsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.distributorsButton.Name = "distributorsButton";
-            this.distributorsButton.Size = new System.Drawing.Size(235, 130);
+            this.distributorsButton.Size = new System.Drawing.Size(128, 70);
             this.distributorsButton.TabIndex = 10;
             this.distributorsButton.Text = "Distributeri";
             this.distributorsButton.UseVisualStyleBackColor = true;
@@ -122,9 +128,10 @@
             // 
             // uposleniciButton
             // 
-            this.uposleniciButton.Location = new System.Drawing.Point(290, 364);
+            this.uposleniciButton.Location = new System.Drawing.Point(295, 196);
+            this.uposleniciButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.uposleniciButton.Name = "uposleniciButton";
-            this.uposleniciButton.Size = new System.Drawing.Size(256, 130);
+            this.uposleniciButton.Size = new System.Drawing.Size(140, 70);
             this.uposleniciButton.TabIndex = 11;
             this.uposleniciButton.Text = "Uposlenici";
             this.uposleniciButton.UseVisualStyleBackColor = true;
@@ -132,9 +139,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(290, 520);
+            this.button1.Location = new System.Drawing.Point(295, 282);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(256, 130);
+            this.button1.Size = new System.Drawing.Size(140, 70);
             this.button1.TabIndex = 12;
             this.button1.Text = "Prodaja";
             this.button1.UseVisualStyleBackColor = true;
@@ -142,9 +150,9 @@
             // 
             // SefPocetna
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1086, 785);
+            this.ClientSize = new System.Drawing.Size(592, 406);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.uposleniciButton);
             this.Controls.Add(this.distributorsButton);
@@ -155,6 +163,7 @@
             this.Controls.Add(this.filmoviButton);
             this.Controls.Add(this.usernameLabel);
             this.Controls.Add(this.odjava_button);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "SefPocetna";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Šef";

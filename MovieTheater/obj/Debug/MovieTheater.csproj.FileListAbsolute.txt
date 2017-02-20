@@ -99,3 +99,4 @@ C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheat
 C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Uposlenici.resources
 C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Zanrovi.resources
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.ListaProdaje.resources
+C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.ListaProdaje.resources
