@@ -20,7 +20,6 @@ namespace MovieTheater
         {
             HomePage homepage = new HomePage();
             string Dir = homepage.GetHomeDirectory();
-            //string Dir = homepage.;
             connString = @"Data Source =" + Dir + "\\MovieTheatre.sdf";
             System.Diagnostics.Debug.WriteLine(connString);
             connection = new SqlCeConnection(connString);

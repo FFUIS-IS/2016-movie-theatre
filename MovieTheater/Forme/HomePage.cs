@@ -17,7 +17,6 @@ namespace MovieTheater
         public HomePage()
         {
             InitializeComponent();
-            //System.Diagnostics.Debug.WriteLine(DBConnection.Instance.getConnString());
         }
 
         public string GetHomeDirectory()
@@ -27,7 +26,6 @@ namespace MovieTheater
 
         private void login_button_Click(object sender, EventArgs e)
         {
-            //System.Diagnostics.Debug.WriteLine(DBConnection.Instance.getConnString());
             LoginForm loginForm = new LoginForm();
             loginForm.Show();
             this.Hide();

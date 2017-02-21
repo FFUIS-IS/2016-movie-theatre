@@ -28,7 +28,6 @@ C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieThea
 C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.csprojResolveAssemblyReference.cache
 C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.HomePage.resources
 C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Properties.Resources.resources
-C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.RegisterForm.resources
 C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.csproj.GenerateResource.Cache
 C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\bin\Debug\App_data\MovieTheatre.sdf
 C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\bin\Debug\EntityFramework.dll
@@ -100,3 +99,16 @@ C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheat
 C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Zanrovi.resources
 C:\POSAO\Instrukcije\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.ListaProdaje.resources
 C:\Users\I\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.ListaProdaje.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Distributeri.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Filmovi.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.ListaProdaje.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Mjesta.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Poslovi.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Prodaja.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Projekcije.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Sale.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.SefPocetna.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Uposlenici.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.Forme.Zanrovi.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.LoginForm.resources
+C:\Users\hp\Documents\GitHub\2016-movie-theatre\MovieTheater\obj\Debug\MovieTheater.UposlenikPocetna.resources

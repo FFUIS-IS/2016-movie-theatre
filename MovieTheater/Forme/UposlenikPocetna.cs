@@ -37,8 +37,7 @@ namespace MovieTheater
             SqlCeConnection Connection = DBConnection.Instance.Connection;
             SqlCeCommand Command = new SqlCeCommand(@"SELECT p.Id, f.Name, r.Name Room, p.Time_of_projection Time, p.price FROM Projections p,Films f, Rooms r WHERE p.FilmsId = f.Id AND p.RoomsId = r.Id", Connection);
             SqlCeDataReader Reader = Command.ExecuteReader();
-
-            //System.Diagnostics.Debug.WriteLine("Redova " + jobsReader.HasRows);
+            
 
             List<Projections> projections = new List<Projections>();
             while (Reader.Read())

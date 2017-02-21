@@ -24,8 +24,6 @@ namespace MovieTheater.Forme
         private void Prodaja_Load(object sender, EventArgs e)
         {
             ucitajPodatkeUcombobox();
-            //int projectionId = (int)comboBox1.SelectedValue;
-            //ucitajMjestaUcombobox(projectionId);
             comboBox1.SelectedValueChanged += new EventHandler(combobox1_selectionChanged);
         }
 

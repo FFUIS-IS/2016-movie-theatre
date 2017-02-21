@@ -29,7 +29,6 @@ namespace MovieTheater.Forme
         private void SefPocetna_Load(object sender, EventArgs e)
         {
             this.TopMost = true;
-            //this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
         }
 

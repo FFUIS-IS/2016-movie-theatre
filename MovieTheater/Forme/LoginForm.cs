@@ -35,7 +35,7 @@ namespace MovieTheater
             string loginType = loginTypeComboBox.Text.Trim();
             string username = userNameTextBox.Text.Trim();
             string password = passwordTextBox.Text.Trim();
-            //System.Diagnostics.Debug.WriteLine("combo " + loginTypeId);
+           
 
             if(loginType.Length == 0)
             {
@@ -79,7 +79,6 @@ namespace MovieTheater
             SqlCeDataReader jobsReader = jobCommand.ExecuteReader();
 
             if(loginTypeComboBox.Items.Count > 0) loginTypeComboBox.Items.Clear();
-            //System.Diagnostics.Debug.WriteLine("Redova " + jobsReader.HasRows);
 
             List<Jobs> jobs = new List<Jobs>();
             while (jobsReader.Read()) 
