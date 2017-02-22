@@ -41,9 +41,12 @@ namespace MovieTheater.Forme
 
         private void gridView1_selectionChanged(object sender, EventArgs e)
         {
-            DataGridViewRow row = this.dataGridView1.SelectedRows[0];
-            int roomId = (int)row.Cells["Id"].Value;
-            ucitajMjestaUGridView(roomId);
+            if (this.dataGridView1.SelectedRows.Count > 0)
+            {
+                DataGridViewRow row = this.dataGridView1.SelectedRows[0];
+                int roomId = (int)row.Cells["Id"].Value;
+                ucitajMjestaUGridView(roomId);
+            }
         }
 
         private void ucitajMjestaUGridView(int roomId)
